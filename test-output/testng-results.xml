@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-08T14:44:57 IST" name="Default suite" finished-at="2022-10-08T14:45:23 IST" duration-ms="26556">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T14:44:57 IST" name="Default test" finished-at="2022-10-08T14:45:23 IST" duration-ms="26556">
+      <class name="AssessmentWithTestNG.MethodoverLoadingUsingTestNG">
+        <test-method is-config="true" signature="login1()[pri:0, instance:AssessmentWithTestNG.MethodoverLoadingUsingTestNG@7133da86]" started-at="2022-10-08T14:44:57 IST" name="login1" finished-at="2022-10-08T14:45:01 IST" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:AssessmentWithTestNG.MethodoverLoadingUsingTestNG@7133da86]" started-at="2022-10-08T14:45:01 IST" name="search" data-provider="DemoData1" finished-at="2022-10-08T14:45:10 IST" duration-ms="9232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemanth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:AssessmentWithTestNG.MethodoverLoadingUsingTestNG@7133da86]" started-at="2022-10-08T14:45:10 IST" name="search" data-provider="DemoData" finished-at="2022-10-08T14:45:23 IST" duration-ms="13026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemanth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- AssessmentWithTestNG.MethodoverLoadingUsingTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
